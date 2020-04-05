@@ -1,0 +1,68 @@
+.var-input
+{
+  flex-grow:1;
+  margin:15px;
+  padding:10px;
+  box-sizing:box-border;
+  
+} 
+.var-input> textarea{
+  height: 80%;
+  width:100%
+}
+.button-prm{
+  float:right;
+  height: 50px;
+  box-sizing: border-box;
+  margin:10px;
+  padding:5px;
+  border-radius:5px;
+  box-shadow:1px 1px white;
+  font-size:14px;
+  font-weight:bold;
+  background-color: #2851a6;
+  color:white;
+  cursor:pointer;
+  text-transform: uppercase
+}
+.button-prm:hover{
+  background-color:#739cf0;
+}
+.var-output
+{
+  flex-grow:1;
+  margin:15px;
+  padding:10px;
+  box-sizing:box-border;
+  transition: transform 0.3s ease-out;
+  /* transform:translateY(100px); */
+  border-bottom:1px solid #2851a6;
+  background:red;
+  
+}
+.disabled-btn
+{
+  float:right;
+  height: 50px;
+  box-sizing: border-box;
+  margin:10px;
+  padding:5px;
+  border-radius:5px;
+  box-shadow:1px 1px white;
+  font-size:14px;
+  font-weight:bold;
+  color:white;
+  text-transform: uppercase;
+  background-color:gray;
+  cursor:auto;
+}
+
+.Open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.Close {
+    transform: translateX(-100%);
+    opacity:0;
+}
